@@ -1,17 +1,101 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Portafolio - Señor X</title>
+  <meta charset="UTF-8" />
+  <title>Mohcin | Junior Full-Stack Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Señor X</h1>
-  <p>Desarrollador Web</p>
 
-  <h2>Proyectos</h2>
-  <ul>
-    <li>Gestor de incidencias (Laravel + Vue)</li>
-    <li>App de stock (AppSheet)</li>
-  </ul>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Mohcin</h1>
+      <h2>Junior Full-Stack Developer</h2>
+      <p>
+        I build complete web applications with a strong focus on clean architecture,
+        real-world logic, and scalability. My goal is to grow as a professional developer
+        by delivering solid and maintainable solutions.
+      </p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h3>About Me</h3>
+    <p>
+      I am a Junior Full-Stack Developer with balanced experience in both frontend and backend development.
+      I work mainly with Vue and Laravel, building applications that include authentication, role management,
+      REST APIs, database design, and real business logic.
+    </p>
+    <p>
+      I am not claiming to be an expert — yet. What I do have is a strong foundation, the ability to learn fast,
+      and the discipline to finish what I start. I am currently focused on gaining real experience through
+      professional internships and hands-on projects.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills">
+    <h3>Technical Skills</h3>
+    <ul>
+      <li>Frontend: HTML, CSS, JavaScript, Vue.js</li>
+      <li>Backend: PHP, Laravel, Symfony (basics)</li>
+      <li>Database: MySQL</li>
+      <li>Others: REST APIs, Authentication, MVC, Git</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <h3>Projects</h3>
+
+    <div class="project-card">
+      <div class="project-text">
+        <h4>GestiZone</h4>
+        <p class="tech">Vue · Laravel · MySQL</p>
+
+        <p>
+          GestiZone is a full-stack incident and task management system designed for internal company use.
+          The application includes user authentication, role-based access control, and a complete workflow
+          for creating, assigning, updating, and closing incidents.
+        </p>
+
+        <p>
+          I developed the entire project from scratch, including database design, backend API,
+          frontend interface, and application logic. The backend is built with Laravel following
+          REST principles, while the frontend uses Vue to provide a responsive and dynamic user experience.
+        </p>
+
+        <p>
+          The system supports different user roles (standard users and administrators),
+          real-time data updates, file attachments, and structured status management.
+          This project reflects how I approach real-world problems: clean structure,
+          scalability in mind, and practical solutions.
+        </p>
+      </div>
+
+      <div class="project-images">
+        <!-- Replace these images with real screenshots -->
+        <img src="resources/Dashboard-Gestizone.png" alt="GestiZone Screenshot 1">
+        <img src="resources/Incidencias-Gestizone.png" alt="GestiZone Screenshot 2">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h3>Contact</h3>
+    <p>Email: <a href="mailto:mohcincar@gmail.com">mohcincar@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/mohcin" target="_blank">linkedin.com/in/mohcin</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Mohcin</p>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
